@@ -1,26 +1,26 @@
  body {
     font-family: 'Open Sans', sans-serif;
-  }
+}
 
-  {
+{
     box-sizing:border-box;
-  }
+}
 
-  .image-responsive {
+.image-responsive {
      display: block;
      width: 100%;
      height: auto;
- }
+}
 
-  .container {
+.container {
       max-width:1200px;
-  }
+}
 
- .example-column-content {
+.example-column-content {
      background: pink;
- } 
+} 
 
- .our-roots {
+.our-roots {
     text-align: center;
     font-size: 24px;
    color: #003262;
@@ -36,6 +36,7 @@ h2 {
   padding-top: 0;
   margin-top: 0%;
   margin-bottom: 25px;
+  font-weight: 600;
 }
 
 .body-text {
@@ -44,6 +45,7 @@ h2 {
   /* padding-top: 20px; */
   padding-bottom: 25px;
   margin-bottom: 0px;
+  font-weight: 400;
 }
 
 .our-reach {
@@ -52,17 +54,78 @@ h2 {
   color: #003262;
   font-weight: 700;
   padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-  .iframe-container{
+.iframe-container{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
-  }
-  .iframe-container iframe{
+}
+
+.iframe-container iframe{
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
+}
+
+.bottom-page-text {
+  color: #003262;
+  line-height: 80%;
+  text-align: center;
+  font-weight: 400;
+}
+
+
+.zmdi {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.zmdi:hover {
+  opacity: 0.7;
+}
+
+
+/* Facebook */
+.zmdi-facebook-box {
+  background: white;
+  color:#003262;
+}
+
+/* Linkedin */
+.zmdi-linkedin-box {
+  background: white;
+  color:#003262;
+}
+
+
+.header-image-menu{
+  top: 10px;
+  position: relative;
+}
+
+
+.header-image-menu img{
+  width: 100%;
+  margin: none;
+  padding: 20px;
+}
+
+
+.image-text{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  color: white;
+  transform: translate(-30%, -30%);
+  text-align: center;
+  font-weight: 700px;
+}
