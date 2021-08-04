@@ -106,30 +106,35 @@ h2 {
   color:#003262;
 }
 
-
 .header-image-menu{
   top: 10px;
   position: relative;
+  padding-bottom: 20px;
 }
-
 
 .header-image-menu img{
   width: 100%;
   margin: none;
-  padding: 20px;
-}
-
-
-.image-text{
-  position: absolute;
-  top: 30%;
-  left: 70%;
-  color: white;
-  transform: translate(-30%, -30%);
-  text-align: center;
-  font-weight: 700px;
-}
+  padding: none;
 
 .bottom-footer {
   text-align: center;
+}
+
+
+/* .mt-0 {
+  margin-top: 0 !important;
+}
+
+.ml-1 {
+  margin-left: ($spacer * .25) !important;
+}
+
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important; */
+}
+
+.p-3 {
+  padding: $spacer !important;
 }
