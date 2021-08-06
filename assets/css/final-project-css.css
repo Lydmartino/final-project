@@ -17,8 +17,21 @@
 }
 
 .example-column-content {
-     background: pink;
+  background: salmon;
 } 
+
+.year-type {
+  background-color: #003262;
+  padding: 68px;
+  text-align: center;
+  color: #FDB515;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  
+}
+
 
 .our-roots {
     text-align: center;
