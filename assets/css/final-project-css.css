@@ -40,6 +40,27 @@
   margin-bottom: 20px;
 }
 
+.sidr {
+  background: #003262;
+  color: #FDB515;
+  box-shadow: none;
+}
+
+.sidr ul li a, .sidr ul li span {
+  color: #FDB515;
+}
+
+.sidr ul li:hover > a, .sidr ul li:hover > span, .sidr ul li.active > a, .sidr ul li.active > span, .sidr ul li.sidr-class-active > a, .sidr ul li.sidr-class-active > span {
+  box-shadow: none;
+}
+
+.closemenu{
+  padding: 0px 15px
+}
+
+
+
+
 .container {
     max-width:1200px;
 }
@@ -48,8 +69,6 @@
 .example-column-content {
   background: salmon;
 } 
-
-
 
 
 .year-type {
@@ -166,6 +185,8 @@ h2 {
 .bottom-footer {
   text-align: center;
 }
+
+
 
 
 
